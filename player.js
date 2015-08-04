@@ -11,8 +11,8 @@ var Player = function () {
         var pair = vars[i].split('=');
         if (decodeURIComponent(pair[0]) == 'v') {
             return decodeURIComponent(pair[1]);
-        }
-    }
+        };
+    };
   };
 
   this.buildIframeUrl = function () {
